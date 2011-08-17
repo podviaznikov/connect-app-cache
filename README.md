@@ -27,6 +27,7 @@ Include into express application:
         });
 
 appCache has following parameters:
+
  - fileName - name of the manifest file which you will use in html: <html manifest="app.mf">... Default is app.mf
  - filePath - path to the manifest file on the filesystem. Default is __dirname+"/public/app.mf"
  - options  - som extra options. You can specify maxAge for caching this file. Default is 1 hour.
