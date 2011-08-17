@@ -1,0 +1,16 @@
+{
+  "author": "Enginimation Studio <hello@enginimation.com> (enginimation.com)",
+  "name": "connect-app-cache",
+  "description": "HTML5 app cache support as connect-middleware",
+  "version": "0.2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/podviaznikov/connect-app-cache.git"
+  },
+  "main": "./index.js",
+  "engines": {
+    "node": ">=v0.4.8"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
