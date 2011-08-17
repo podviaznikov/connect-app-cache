@@ -4,13 +4,33 @@
 
 ## Usage
 
-Install via NPM
+Install via NPM:
 
     $ npm install connect-app-cache
 
-Include into connect application
+Use it in your code:
+
+    $ var appCache = require('connect-app-cache');
+
+Include into connect application:
 
     $ connect.createServer(connectAppCache.appCache());
+
+
+Include into express application:
+
+    $   ...
+        var app = express.createServer();
+        app.configure(function(){
+            ...
+            app.use(appCache("app.mf",__dirname+"/app.mf"));
+        });
+
+appCache has following parameters:
+  1. fileName - name of the manifest file which you will use in html: <html manifest="app.mf">... Default is app.mf
+  2. filePath - path to the manifest file on the filesystem. Default is __dirname+"/public/app.mf"
+  3. options  - som extra options. You can specify maxAge for caching this file. Default is 1 hour.
+
 
 ## License
 
