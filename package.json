@@ -1,5 +1,5 @@
 {
-  "author": "Enginimation Studio <hello@enginimation.com> (enginimation.com)",
+  "author": "Anton Podviaznikov",
   "name": "connect-app-cache",
   "description": "HTML5 app cache support as connect-middleware",
   "version": "0.2.1",
